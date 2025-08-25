@@ -51,6 +51,26 @@ header > p {
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.575);
 }
 
+.ibama {
+    background-image: url("imagens/.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 30vh; 
+    margin: 0;
+}
+
+.flora {
+    background-image: url("imagens/flora.jpeg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 30vh; 
+    margin: 0;
+}
+
+
 nav {
     background-color: var(--cor5);
     padding: 10px;
@@ -140,6 +160,13 @@ aside > h3 {
     padding: 10px;
     margin: -10px -10px 0px -10px;
     border-radius: 10px 10px 0px 0px;
+}
+
+aside abbr {
+    text-decoration: none !important; 
+    border-bottom: none !important;
+    cursor: default;            
+    color: inherit;  
 }
 
 aside > ul {
