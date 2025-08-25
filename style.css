@@ -52,10 +52,9 @@ header > p {
 }
 
 .ibama {
-    background-image: url("imagens/.jpeg");
+    background-image: url("imagens/ibama.jpeg");
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
     width: 100%;
     height: 30vh; 
     margin: 0;
